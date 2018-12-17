@@ -1,0 +1,26 @@
+{
+  "name": "netlify-lambda-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:lambda": "netlify-lambda serve src/lambda",
+    "build:lambda": "netlify-lambda build src/lambda"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccalvarez/netlify-lambda-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccalvarez/netlify-lambda-example/issues"
+  },
+  "homepage": "https://github.com/ccalvarez/netlify-lambda-example#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "netlify-lambda": "^1.1.1"
+  }
+}
